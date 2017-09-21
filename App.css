@@ -1,0 +1,34 @@
+﻿/* Coloque os estilos personalizados abaixo */
+.product{
+    float:left;
+    margin:20px;
+}
+#menuLat {
+    float: left;
+    width: 10%;
+    margin: 0;
+    padding: 0;
+}
+#menuLat ul li {
+    margin: 0;
+    padding: 0px;
+    border-bottom: 1px solid #CCC;
+    text-align: left;
+    list-style-type: none;
+}
+.container {
+    width: 90%;
+    float: right;
+    text-align: center;
+}
+#paginas{
+    float:left;
+    width:inherit;
+    font-size:20px;
+}
+
+.row{
+	width: auto;
+	height: 500px;
+	overflow: auto;
+}

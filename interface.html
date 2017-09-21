@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="App.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<Script>
+
+function addProduto(){
+	var divRef = document.getElementById("t");	
+	var html = "<div class='product'><img src='excluir.png' /><h1>Adicionado</h1><p>Descrição</p><button>+</button>Quantidade<button>-</button></div>";
+	divRef.innerHTML += html;
+}
+
+function addGrupo(){
+	var a = document.createElement("a");
+	var ul = document.getElementById("grupo");
+	var li = document.createElement("li");
+	a.textContent = "Grupo";
+	a.setAttribute('href',"#");
+	li.appendChild(a);
+	//li.appendChild(document.createTextNode("Grupo"));
+	//li.setAttribute("id", "element4"); // added line
+	ul.appendChild(li);
+	//alert(li.id);
+}
+
+
+</Script>
+</head>
+<body>
+	<div>
+		<!-- O seguinte conteúdo será substituído pelo nome de usuário quando você executar o aplicativo. Consulte App.js -->
+		<div id="menuLat">
+			<ul  id="grupo">
+		</ul> 
+		</div>
+		<input type="button" value="addProduto" onclick="addProduto()"></input>
+		<input type="button" value="addGrupo" onclick="addGrupo()"></input>
+		<div class="container">
+			<div class="row" style="float:left">
+			<div id="t"></div>
+			</div>
+				<div id="paginas">
+					<ul>
+						<a>1</a>
+						<a>2</a>
+						<a>3</a>
+						<a>4</a>
+						<a>5</a>
+						<a>6</a>
+					</ul>
+				</div>
+         </div>
+    </div>
+</body>
+</html>

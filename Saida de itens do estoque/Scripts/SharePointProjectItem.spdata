@@ -7,5 +7,10 @@
     <ProjectItemFile Source="jquery-1.9.1.min.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="jquery-1.9.1.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jspdf.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jspdf.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jspdf.plugin.autotable.js" Target="Scripts\" Type="ElementFile" />
   </Files>
 </ProjectItem>

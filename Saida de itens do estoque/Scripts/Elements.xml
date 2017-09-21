@@ -6,5 +6,10 @@
     <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui.js" Url="Scripts/jquery-ui.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui.min.js" Url="Scripts/jquery-ui.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jspdf.js" Url="Scripts/jspdf.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jspdf.min.js" Url="Scripts/jspdf.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jspdf.plugin.autotable.js" Url="Scripts/jspdf.plugin.autotable.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>
